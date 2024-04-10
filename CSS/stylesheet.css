@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+
+@font-face {
+    font-family: "Raleway";
+    src: url('../Font/Raleway-VariableFont_wght.woff');
+    src: url('../Font/Raleway-VariableFont_wght.ttf') format('truetype');
+}
+
+p{
+    font-family: 'Raleway';}
+ul{font-family: 'Raleway';}
+#LiLeft{color: white;}
+h1{font-family: 'Lato';
+color: white;}
+h2{font-family: 'Lato';
+background-color: #dbc2a4 ;}
+
+address{font-family: 'Raleway';
+font-style: italic;
+background-color:#2c1d27;
+}
+a{color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+  }
+
+#pp{cursor: zoom-in;
+border-radius: 50%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4) ;}
+#Left-column{background-color: #782221;
+}
+footer{background-color: #782221;}
+small{color: white;}
+#about{color: white;}
+#twitter:hover{
+    filter: opacity(0.20);}
+
+    #linkedin:hover{
+        filter: opacity(0.20);}
+
+        #github:hover{
+            filter: opacity(0.20);}
+
+header{background-color: #782221 ;}
