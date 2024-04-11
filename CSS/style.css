@@ -46,6 +46,10 @@ border-left-color: #782221;
 border-left-style: solid;
 border-left-width: 10px;
 }
+
+h3{
+
+}
 #borderover:hover{
   border-right-color: #782221;
   border-right-style: solid;
@@ -199,12 +203,12 @@ width: 1160px;
 }
 
 .school-item {
-  margin-top: 10px;
+
   margin-left: 20px;
   padding-left: 10px;
   text-align: justify;
   font-family: 'Raleway';
-  line-height: 25px;
+  line-height: 35px;
 }
 
 .skill-li {
