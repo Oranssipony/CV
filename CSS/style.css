@@ -14,9 +14,6 @@ body{
   border-right-width: 2px;
   border-color: black;
 }
-p{
-    font-family: 'Raleway';
-}
 
 ul{font-family: 'Raleway';}
 
@@ -27,6 +24,8 @@ color: white;
 align-items: center;
 justify-content: center;
 margin: auto;
+font-weight:300;
+margin-top: 30px;
 }
 
 .job{font-family: 'Lato';
@@ -35,6 +34,7 @@ margin: auto;
   justify-content: center;
   margin: auto;
   padding-bottom: 30px;
+  font-size: larger;
   }
 
 h2{
@@ -45,8 +45,15 @@ margin-right: 20px;
 border-left-color: #782221;
 border-left-style: solid;
 border-left-width: 10px;
+}
+#borderover:hover{
+  border-right-color: #782221;
+  border-right-style: solid;
+  border-right-width: 5px;
 
 }
+
+
 
 a{color: white;
     text-decoration: none;
@@ -87,17 +94,17 @@ width: 1160px;
     justify-content: space-between;  
     align-items: center;
     background:#2c1d27;
-    margin: 0;
   }
   
 .coordonnees-item {
     padding: 5px;
+    padding-left: 100px;
     flex:1;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 33%;
     color: white;
-    text-align: center;
+    text-align: justify;
     font-family: 'Raleway';
     font-style: italic;
     background:#2c1d27;
@@ -134,11 +141,13 @@ width: 1160px;
     background-color:#dbc2a4;
     color: black;
     font-weight:bold;
+    margin-top: 30px;
 
 }
 .apropos-text {
     background-color:#782221;
     color: white;
+    text-align: justify;
     font-weight:lighter;
     text-indent: 15%;
     font-weight: 400;
@@ -156,7 +165,7 @@ width: 1160px;
 .exp-container {
   align-items: center;
   background: white;
-  width:100%
+  width:100%;
 }
 
 .school-container {
@@ -164,12 +173,13 @@ width: 1160px;
   width: 100%;
   align-items: center;
   background: white;
+  padding-bottom: 20px;
 }
 .exp-item {
   margin-top: 10px;
-  margin-bottom: 0px;
-  margin-left: 20px;
-  padding-left: 10px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  padding-left: 5px;
   text-align: justify;
   font-family: 'Raleway';
 }
@@ -177,6 +187,7 @@ width: 1160px;
     padding-bottom: 3px;
     padding-top: 3px;
     margin-top: 20px;
+    padding-left: 15px;
     text-align: justify;
   }
 
@@ -189,7 +200,6 @@ width: 1160px;
 
 .school-item {
   margin-top: 10px;
-  margin-bottom: 0px;
   margin-left: 20px;
   padding-left: 10px;
   text-align: justify;
@@ -211,11 +221,14 @@ width: 1160px;
     gap: 30px;
     align-items: center;
     background-color: #782221;
+    padding-bottom: 20px;
+    padding-top: 15px;
 
   }
 small{
   display: flex;
     text-align: center;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
